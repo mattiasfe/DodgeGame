@@ -1,12 +1,11 @@
+let board;
+let context;
 
-initBoard(document.getElementById("board"), boardHeight, boardWidth);
-function initBoard(boardElement, height, width) {
-    Model.data.board = {
-        board: boardElement,
-        height: height,
-        width: width,
-        context: boardElement.getContext("2d")
-    };
+    function showBackground() {
+    board = document.getElementById("board");
+    board.height = Model.data.board.height;
+    board.width = Model.data.board.width;
+    context = board.getContext("2d");
 }
 
 

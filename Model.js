@@ -19,10 +19,8 @@ const Model = {
 
     data:{
         board: {
-            board,
             height: 776,
-            width: 840,
-            context
+            width: 1040,
         }
     }
 }
