@@ -13,7 +13,7 @@ function showCharacter() {
     
       // Fixed typo in function name (was "showCaracter")
     let cartmanRight = new Image();  // Create the image first
-    cartmanRight.src = "CartmanRight.png";  // Then set the source
+    cartmanRight.src = "CartmanRight (2).png";  // Then set the source
     
     // Store the image reference in your model
     Model.data.character[0].imgRight = cartmanRight;

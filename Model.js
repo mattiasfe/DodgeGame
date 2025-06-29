@@ -21,7 +21,7 @@ const Model = {
                 // These will need to be calculated after the object is created
                 cartmanX: 0,  // Placeholder - will be set later
                 cartmanY: 0,   // Placeholder - will be set later
-                imgRight: "CartmanRight.png",
+                imgRight: "CartmanRight (2).png",
                 x: 0,          // Placeholder - will reference cartmanX
                 y: 0           // Placeholder - will reference cartmanY
             }
