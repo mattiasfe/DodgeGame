@@ -1,3 +1,7 @@
 body{
-    background-image: url(southParkHallBackground.png);
+    text-align: center;
+}
+
+#board{
+    background-image: url("southParkHallBackground.png");
 }

@@ -1,4 +1,4 @@
-var Model = {
+const Model = {
     app:{
         currentCharacter: [],
         curentBackground:  [],
@@ -18,6 +18,11 @@ var Model = {
     },
 
     data:{
-        
+        board: {
+            board,
+            height: 776,
+            width: 840,
+            context
+        }
     }
 }
