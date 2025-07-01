@@ -11,16 +11,14 @@ function showBackground() {
 
 function showCharacter() {
     
-      // Fixed typo in function name (was "showCaracter")
-    let cartmanRight = new Image();  // Create the image first
-    cartmanRight.src = "CartmanRight (2).png";  // Then set the source
+    let cartmanRight = new Image(); 
+    cartmanRight.src = "CartmanRight (2).png"; 
     
-    // Store the image reference in your model
     Model.data.character[0].imgRight = cartmanRight;
     
     cartmanRight.onload = function() {
         context.drawImage(
-            cartmanRight,  // Use the image directly
+            cartmanRight,  
             Model.data.character[0].x, 
             Model.data.character[0].y, 
             Model.data.character[0].cartmanWidth, 
@@ -28,3 +26,5 @@ function showCharacter() {
         );
     };
 }
+
+
