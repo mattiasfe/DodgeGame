@@ -25,6 +25,12 @@ function showCharacter() {
             Model.data.character[0].cartmanHeight
         );
     };
+
+    cartmanLeft = new Image();
+    cartmanLeft.src = "CartmanLeft (2).png";
+
+    document.addEventListener("keydown", moveCharacter());
+
 }
 
 
