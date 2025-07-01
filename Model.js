@@ -16,8 +16,8 @@ const Model = {
         character: [
             {
                 name: "Cartman",
-                cartmanWidth: 96,
-                cartmanHeight: 96,
+                cartmanWidth: 116,
+                cartmanHeight: 116,
                 
                 cartmanX: 0,  
                 cartmanY: 0,  
