@@ -54,19 +54,19 @@ function drawCharacter(direction) {
 function handleKeyPress(e) {
     if (e.code == "ArrowLeft" || e.code == "KeyA") {
         drawCharacter('left');
-         Model.data.character[0].x -= 13;
+        Model.data.character[0].x -= 12;
     }
     else if (e.code == "ArrowRight" || e.code == "KeyD") {
         drawCharacter('right');
-         Model.data.character[0].x += 13;
+        Model.data.character[0].x += 12;
     }
     else if (e.code == "ArrowUp" || e.code == "KeyW"){
-        drawCharacter('right');
-        Model.data.character[0].y -= 13;
+        drawCharacter();
+        Model.data.character[0].y -= 12;
     }
     else if (e.code == "ArrowDown" || e.code == "KeyS"){
-        drawCharacter('right');
-        Model.data.character[0].y += 13;
+        drawCharacter();
+        Model.data.character[0].y += 12;
     }
 }
 

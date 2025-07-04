@@ -6,7 +6,7 @@ const Model = {
     },
 
     input: {
-        
+
     },
 
     data: {
@@ -26,7 +26,9 @@ const Model = {
                 imgRight: "CartmanRight (2).png",
                 imgLeft: "CartmanLeft (2).png",
                 x: 0,          
-                y: 0           
+                y: 0,  
+                facing: 'right', 
+                isMoving: false        
             }
         ]
     }

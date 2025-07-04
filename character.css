@@ -5,3 +5,8 @@ body{
 #board{
     background-image: url("southParkHallBackground.png");
 }
+
+canvas {
+    max-width: 1190;
+    max-height: 670;
+}
