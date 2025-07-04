@@ -5,7 +5,9 @@ const Model = {
         currentDifficulty: "",  
     },
 
-    input: {},
+    input: {
+        
+    },
 
     data: {
         board: {

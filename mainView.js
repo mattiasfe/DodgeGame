@@ -60,6 +60,14 @@ function handleKeyPress(e) {
         drawCharacter('right');
          Model.data.character[0].x += 13;
     }
+    else if (e.code == "ArrowUp" || e.code == "KeyW"){
+        drawCharacter('right');
+        Model.data.character[0].y -= 13;
+    }
+    else if (e.code == "ArrowDown" || e.code == "KeyS"){
+        drawCharacter('right');
+        Model.data.character[0].y += 13;
+    }
 }
 
 
@@ -69,5 +77,4 @@ function initGame() {
     document.addEventListener('keydown', handleKeyPress);
 }
 
-initGame();
 
